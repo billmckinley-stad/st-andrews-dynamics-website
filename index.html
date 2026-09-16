@@ -36,6 +36,16 @@ section:nth-of-type(even) { background: #EEF4FA; }
 #products .product { background: linear-gradient(145deg, #FFFFFF 0%, #F3F7FC 100%); }
 #contact { background: #F3F7FC; }
 footer { background: #FFFFFF; }
+
+/* Section photography scales naturally on phones and desktop. */
+.section-photo { margin: 0 0 28px; }
+.section-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  border: 1px solid rgba(31,56,100,.12);
+}
 </style>
 </head>
 <body id="top">
@@ -116,6 +126,9 @@ footer { background: #FFFFFF; }
     <div class="col-head"><span class="eyebrow">OUR ROOTS</span>
     <h2>More than the home of golf.</h2></div>
     <div class="col-body">
+    <figure class="section-photo">
+      <img src="images/st-andrews.jpg" width="3300" height="2200" loading="lazy" decoding="async" alt="Swilcan Bridge and the Old Course at St Andrews, with the town beyond">
+    </figure>
     <div class="lead">
       <p>We work from St&nbsp;Andrews, a location known worldwide for its golf. It is home to the Old Course and nine others, with world-class practice facilities. Players travel here from all over the world to walk its hallowed turf.</p>
       <p>Beyond golf, its sporting facilities run wider still. Venues across a range of sports bring professional squads here for pre-season training and elite athletes for year-round preparation.</p>
